@@ -14,9 +14,15 @@ h1 {
     margin: 0;
     padding: 20px;
 }
+
+h3{
+    font-size: 20px;
+    margin:0;
+}
+
 ol {
     border-right: 1px solid gray;
-    width: 100px;
+    width: 350px;
     margin: 0;
     padding: 20px;
 }
@@ -25,12 +31,12 @@ ol {
     grid-template-columns: 1fr 2fr;
 }
 #grid ol {
-    padding-left: 40px;
-    padding-right: 100px;
-}
-#grid #article {
     padding-left: 25px;
 }
+#grid #article {
+    padding-left: 0;
+}
+
 /*screen width<800px*/
 @media (max-width: 800px) {
     #grid {
