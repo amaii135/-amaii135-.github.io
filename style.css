@@ -1,11 +1,9 @@
 body {
     margin: 0;
 }
-#active {
-    color: red;
-}
 a {
     color: black;
+    text-decoration-line: none;
 }
 h1 {
     border-bottom: 1px solid gray;
@@ -14,13 +12,14 @@ h1 {
     margin: 0;
     padding: 20px;
 }
-
-h3{
+h2{
     font-size: 20px;
-    margin:0;
+    font-weight: 400; /*기본 사이즈*/
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
-
 ol {
+    font-weight: bold;
     border-right: 1px solid gray;
     width: 350px;
     margin: 0;
@@ -28,13 +27,17 @@ ol {
 }
 #grid {
     display: grid;
+    padding-left: 20px;
     grid-template-columns: 1fr 2fr;
 }
 #grid ol {
-    padding-left: 25px;
+    padding-left: 45px;
+    padding-right: 10px;
+    font-size: 20px;
 }
 #grid #article {
-    padding-left: 0;
+    padding-left: 25px;
+    font-size: 20px;
 }
 
 /*screen width<800px*/
